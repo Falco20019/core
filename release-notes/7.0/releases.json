@@ -14346,5 +14346,11 @@
         ]
       }
     }
+  ],
+  "operating-systems" : [
+    {
+      "name": "iOS",
+      "architectures": ["x64", "arm64", "arm"]
+    }
   ]
 }

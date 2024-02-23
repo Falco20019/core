@@ -93,5 +93,11 @@
       "release-notes": "https://github.com/dotnet/core/blob/main/release-notes/8.0/preview/preview1/8.0.0-preview.1.md",
       "release.json": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/8.0/preview/preview1/release.json"
     }
+  ],
+  "operating-systems" : [
+    {
+      "name": "iOS",
+      "architectures": ["arm64"]
+    }
   ]
 }
