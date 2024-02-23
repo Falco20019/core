@@ -1,0 +1,10 @@
+{
+  "channel-version": "7.0",
+  "last-updated": "2024-02-22",
+  "operating-systems" : [
+    {
+      "name": "iOS",
+      "architectures": ["x64", "arm64", "arm"]
+    }
+  ]
+}
