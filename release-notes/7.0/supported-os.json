@@ -184,6 +184,12 @@
                     ],
                     "unsupported-versions": [
                         "10"
+                    ],
+                    "exceptional-versions": [
+                        {
+                            "version": "11",
+                            "note": "Debian 11 is continued to be supported after EOL as it's used as [container base](https://github.com/dotnet/dotnet-docker/discussions/5710)."
+                        }
                     ]
                 },
                 {
@@ -335,6 +341,12 @@
                         "8.1",
                         "7-sp1"
                     ],
+                    "exceptional-versions": [
+                        {
+                            "version": "10-1507-e-lts",
+                            "note": "Windows 10 1507 was explicitly never supported."
+                        }
+                    ],
                     "notes": [
                         "The x64 emulator is supported on Windows 11 Arm64."
                     ]
@@ -358,6 +370,16 @@
                         "2012-R2",
                         "2012"
                     ],
+                    "exceptional-versions": [
+                        {
+                            "version": "2012",
+                            "note": "Windows Server 2012 is supported with ESU."
+                        },
+                        {
+                            "version": "2012-R2",
+                            "note": "Windows Server 2012 R2 is supported with ESU."
+                        }
+                    ],
                     "notes": [
                         "Windows Server 2012 and 2012 R2 are supported with [Extended Security Updates](https://learn.microsoft.com/windows-server/get-started/extended-security-updates-overview)."
                     ]
@@ -377,6 +399,19 @@
                         "2016",
                         "2012-R2",
                         "2012"
+                    ],
+                    "exceptional-versions": [
+                        {
+                            "version": "2012",
+                            "note": "Windows Server 2012 is supported with ESU."
+                        },
+                        {
+                            "version": "2012-R2",
+                            "note": "Windows Server 2012 R2 is supported with ESU."
+                        }
+                    ],
+                    "notes": [
+                        "Windows Server 2012 and 2012 R2 are supported with [Extended Security Updates](https://learn.microsoft.com/windows-server/get-started/extended-security-updates-overview)."
                     ]
                 }
             ]
