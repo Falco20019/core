@@ -281,6 +281,16 @@
                         "2012-R2",
                         "2012"
                     ],
+                    "exceptional-versions": [
+                        {
+                            "version": "2012",
+                            "note": "Windows Server 2012 is supported with ESU."
+                        },
+                        {
+                            "version": "2012-R2",
+                            "note": "Windows Server 2012 R2 is supported with ESU."
+                        }
+                    ],
                     "notes": [
                         "Windows Server 2012 and 2012 R2 are supported with [Extended Security Updates](https://learn.microsoft.com/windows-server/get-started/extended-security-updates-overview)."
                     ]
@@ -300,6 +310,19 @@
                         "2016",
                         "2012-R2",
                         "2012"
+                    ],
+                    "exceptional-versions": [
+                        {
+                            "version": "2012",
+                            "note": "Windows Server 2012 is supported with ESU."
+                        },
+                        {
+                            "version": "2012-R2",
+                            "note": "Windows Server 2012 R2 is supported with ESU."
+                        }
+                    ],
+                    "notes": [
+                        "Windows Server 2012 and 2012 R2 are supported with [Extended Security Updates](https://learn.microsoft.com/windows-server/get-started/extended-security-updates-overview)."
                     ]
                 }
             ]
